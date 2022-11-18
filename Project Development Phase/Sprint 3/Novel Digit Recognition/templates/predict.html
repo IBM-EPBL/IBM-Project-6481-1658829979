@@ -12,9 +12,9 @@
             </div>
             
 
-        <form method="POST" action="image.html">
+        <form method="POST" action="{{url_for('home')}}" enctype="multipart/form-data">
             <input type="file" name='image' class='btn'><br><br><br>
-            <input type="submit">
+            <input type="submit" class='btn'>
         </form>
 
     </center>
